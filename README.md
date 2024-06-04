@@ -13,5 +13,3 @@ Implementations of three classical ciphers: the Caesar cipher, the Hill cipher, 
 ## AES Client-Server
 
 AES (Advanced Encryption Standard): AES is a symmetric block cipher used to encrypt electronic data. It is widely used to secure sensitive data, such as financial transactions, and is considered to be one of the most secure encryption algorithms available today. It operates on blocks of 128 bits and uses a key length of 128, 192, or 256 bits.
-
-Python Client-Server Implementation of AES: There are several libraries available in Python for implementing AES, including the PyCrypto and cryptography libraries, in this case we are using Crypto.Cipher. This client-server implementation of AES involve a client sending plaintext to a server, which encrypts the plaintext using AES and sends the encrypted ciphertext back to the client. The client can then decrypt the ciphertext using the same AES key that was used by the server. This type of implementation can be useful for secure communication between two parties, such as a client and a server exchanging sensitive information.
